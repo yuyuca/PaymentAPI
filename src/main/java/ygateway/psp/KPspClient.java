@@ -1,4 +1,4 @@
-package ygateway;
+package ygateway.psp;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -15,6 +15,9 @@ import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 
 import com.google.gson.Gson;
+
+import ygateway.psp.model.KPspRequest;
+import ygateway.psp.model.KPspResponse;
 
 public class KPspClient {
 

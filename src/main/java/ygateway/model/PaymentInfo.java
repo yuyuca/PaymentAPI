@@ -1,14 +1,15 @@
-package ygateway;
+package ygateway.model;
+
 import java.sql.Date;
- 
+
 /**
  * payment_infoテーブル用DTOクラス
  *
  */
-public class PaymentInfoDto {
-  /**
-   * フィールド変数
-   */
+public class PaymentInfo {
+	/**
+	 * フィールド変数
+	 */
 	private Long id;
 	private Byte request_status;
 	private Integer amount;
@@ -54,6 +55,4 @@ public class PaymentInfoDto {
 	public void setUpdate_time(Date update_time) {
 		this.update_time = update_time;
 	}
-	
-     
 }

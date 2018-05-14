@@ -1,4 +1,4 @@
-package ygateway;
+package ygateway.validator;
 
 public class RequestValidator {
 	public static boolean isInvalid(Integer amount) {

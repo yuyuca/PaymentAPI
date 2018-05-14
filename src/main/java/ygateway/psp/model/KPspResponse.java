@@ -1,4 +1,4 @@
-package ygateway;
+package ygateway.psp.model;
 
 public class KPspResponse {
 	private String response_code;
